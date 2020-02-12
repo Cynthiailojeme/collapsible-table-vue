@@ -54,7 +54,6 @@ export default {
   name: "HelloWorld",
 
   data: () => ({
-    isMobile: false,
     headers: [
       { text: "Employee ID", id: "1" },
       { text: "Employee Name", id: "2" },
@@ -144,7 +143,8 @@ export default {
         prog_lang: "Flutter",
         salary: "30000"
       }
-    ] 
+    ],
+    isMobile: false
   }),
   mounted() {
 		this.collapseTable();
